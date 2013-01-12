@@ -13,6 +13,10 @@ This repo solve a classic problem when  you are applying to a frontend developer
  Write a jQuery module that provides the following methods for setting CSS border properties:
 
 $('#foo').border('1px solid blue');
+
 $('#foo').border({width: '2px', color: 'red', radius: '1px'});
+
 $('#foo').border(null);
+
 $('#foo').border(); // Returns the value of the border property
+
